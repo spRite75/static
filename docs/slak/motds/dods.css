@@ -1,3 +1,44 @@
-.main {
-  background-color: #4d4a41;
+html {
+  color: white;
+  font-size: 0.8em;
+}
+
+body {
+  background-image: url("./background.jpg");
+  text-align: center;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.blue {
+  color: #3075cc;
+}
+
+.yellow {
+  color: #de9510;
+}
+
+.grey {
+  color: #a7a49f;
+}
+
+.small {
+  font-size: 0.9rem;
+}
+
+.container {
+  display: inline-flex;
+  flex-direction: row;
+  max-width: 1200px;
+}
+
+.container>div {
+  padding: 0.6rem
+}
+
+.container>.rules {
+  max-width: 26rem;
 }
