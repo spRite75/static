@@ -1,0 +1,25 @@
+body {
+  background-image: url("./l4d2-background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: rgba(255, 255, 255, 0.7);
+  margin: auto;
+  padding: 1em;
+  max-width: 70%;
+  display: inline-flex;
+  flex-direction: row;
+}
+
+.main {
+    padding: 1em;
+}
+
+a, a:visited {
+  color: rgba(255, 255, 255, 0.8);
+}
