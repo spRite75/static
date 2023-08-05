@@ -12,12 +12,15 @@ body {
   margin: auto;
   padding: 1em;
   max-width: 70%;
-  display: inline-flex;
-  flex-direction: row;
+}
+
+.logo > img {
+  width: 10em;
 }
 
 .main {
-    padding: 1em;
+  max-width: 35em;
+  margin: auto;
 }
 
 a, a:visited {
